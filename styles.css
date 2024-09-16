@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0ac0f7;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: whitesmoke;
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #070707;
+}
+
+th {
+    background-color: #f8b400;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+#resultTable {
+    margin-top: 20px;
+    background-color: white;
+}
+button {
+    color: rgb(241, 245, 15);
+    background-color: green;
+}

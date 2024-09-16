@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traverse Computation - Input Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Traverse Computation - Input Details</h1>
+    <form id="secondForm">
+        <label for="bearing">Bearing of First Station (in grades):</label>
+        <input type="number" id="bearing" name="bearing" step="any" required>
+
+        <label for="easting">Easting of First Station:</label>
+        <input type="number" id="easting" name="easting" step="any" required>
+
+        <label for="northing">Northing of First Station:</label>
+        <input type="number" id="northing" name="northing" step="any" required>
+
+        <h3>Angle Type:</h3>
+        <label>
+            <input type="radio" name="angleType" value="internal" required>
+            Internal
+        </label>
+        <label>
+            <input type="radio" name="angleType" value="external" required>
+            External
+        </label>
+
+        <div id="anglesSection"></div>
+        <div id="distancesSection"></div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="scripts/second_interface.js"></script>
+</body>
+</html>
